@@ -22,7 +22,7 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
     - `git add .` : add all the changes
     - `git add README.md` : only add changes in README.md
 - `git commit -m "test" -m "test"`: Commits changes to the repository, creating a new snapshot of the project's state. m describes this commit.
-- `git push origin main`: Pushes committed changes in 'main' branch to a remote repository, typically hosted on a service like GitHub or Bitbucket.
+- `git push origin main`: Pushes committed changes in "main" branch to a remote repository, typically hosted on a service like GitHub or Bitbucket.
 - `git pull`: Pulls changes from a remote repository and merges them into the current branch.
 - `git branch`: Lists all local branches in the repository.
     - `git branch test`: create a new branch call "test".
