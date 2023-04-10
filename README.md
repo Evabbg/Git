@@ -19,6 +19,7 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`
 - `git clone`: Clones an existing Git repository into a new directory.
 - `git status`: Shows the status of the current working directory and any changes that have been made.
 - `git add`: Adds changes to the staging area in preparation for committing them to the repository.
+    - `git add .` : add all the changes
 - `git commit`: Commits changes to the repository, creating a new snapshot of the project's state.
 - `git push`: Pushes committed changes to a remote repository, typically hosted on a service like GitHub or Bitbucket.
 - `git pull`: Pulls changes from a remote repository and merges them into the current branch.
@@ -28,4 +29,6 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`
 - `git log`: Shows a history of all commits in the repository.
 - `git branch`: create a new branch.
 - `git checkout`: switch the the desired branch.
+
+- this is on test branch
 
