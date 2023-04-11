@@ -37,6 +37,11 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
     - `git merge test`: First `git checkout main`. Then in 'main' branch, merge the 'test' branch into 'main' branch. 
 - `git log`: Shows a history of all commits in the repository.
 
+<<<<<<< HEAD
 
 
 
+=======
+## Git workflow
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/87878087/231024655-1229ca3e-3069-4981-a1c4-02c85bbcc939.png">
+>>>>>>> f0a943c (no)
