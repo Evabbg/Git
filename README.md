@@ -40,5 +40,6 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
 ## workflow
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/87878087/231027507-34726768-04c6-432d-b607-e75d77a3d854.png">
 
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/87878087/231028662-731dd058-dfd1-4a9c-8d2b-286062e9d5d6.png">
 
 
