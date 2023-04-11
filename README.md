@@ -23,10 +23,10 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
     - `git add README.md` : only add changes in README.md
 - `git commit -m "description" -m "description"`: Commits changes to the repository, creating a new snapshot of the project's state. m describes this commit.
 - `git commit -am "description" -m "description`: combine `git add` and `git commit` in one line.
-- `git reset`: undo add or commit.
-    - `git reset README.md`: only undo adding README.md.
-    - `git reset HEAD~1`: undo the last commit.
-    - `git reset bab68ea781c97b079e035a4eddbf24da2ead2de9`: search past commit via log file, then copy the commit id, this unstaged all the changes after this commit. 
+- `git reset`: undo last adding, only work if the changes is not yet commited.
+- `git reset README.md`: only undo adding README.md.
+- `git reset HEAD~1`: undo the last commit.
+- `git reset bab68ea781c97b079e035a4eddbf24da2ead2de9`: search past commit via log file, then copy the commit id, this unstaged all the changes after this commit. 
 - `git push origin main`: Pushes committed changes in "main" branch to a remote repository, typically hosted on a service like GitHub or Bitbucket.
 - `git pull`: Pulls changes from a remote repository and merges them into the current branch.
 - `git branch`: Lists all local branches in the repository.
