@@ -21,7 +21,8 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
 - `git add`: Adds changes to the staging area in preparation for committing them to the repository.
     - `git add .` : add all the changes
     - `git add README.md` : only add changes in README.md
-- `git commit -m "test" -m "test"`: Commits changes to the repository, creating a new snapshot of the project's state. m describes this commit.
+- `git commit -m "description" -m "description"`: Commits changes to the repository, creating a new snapshot of the project's state. m describes this commit.
+- `git commit -am "description" -m "description`:
 - `git push origin main`: Pushes committed changes in "main" branch to a remote repository, typically hosted on a service like GitHub or Bitbucket.
 - `git pull`: Pulls changes from a remote repository and merges them into the current branch.
 - `git branch`: Lists all local branches in the repository.
@@ -31,6 +32,7 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
 - `git merge`: Merges changes from one branch into another.
     - `git merge test`: First `git checkout main`. Then in 'main' branch, merge the 'test' branch into 'main' branch. 
 - `git log`: Shows a history of all commits in the repository.
+
 
 
 
