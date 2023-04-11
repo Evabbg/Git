@@ -29,6 +29,7 @@ This private key will be ignored.` , run `chmod 600 ~/.ssh/id_ed25519`.
 - `git checkout`: Switches to a different branch or commit.
     -`git checkout test`: swicth to 'test' branch.
 - `git merge`: Merges changes from one branch into another.
+    - `git merge test`: First `git checkout main`. Then in 'main' branch, merge the 'test' branch into 'main' branch. 
 - `git log`: Shows a history of all commits in the repository.
 
 
